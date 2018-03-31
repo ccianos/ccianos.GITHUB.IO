@@ -1,0 +1,97 @@
+/* Variables */
+body {
+  padding-bottom: 0px;
+  font-family: 'Open Sans', Arial, Tahoma;
+  color: #ededed;
+  background: #363636;
+  font: 16px; }
+
+.navbar {
+  margin: 0; }
+
+.navbar a {
+  margin-bottom: 3px; }
+
+.navbar-brand {
+  border-bottom: #967cb6 1px solid;
+  margin-bottom: 13px; }
+
+.navbar a:hover {
+  border-bottom: #967cb6 3px solid;
+  margin-bottom: 0; }
+
+.jumbotron {
+  background: #363636 url("https://raw.githubusercontent.com/ccianos/img/master/BridgeAtSunset_Jean%20Beaufort_o.jpg");
+  color: #fff;
+  height: 598px;
+  background-size: 100%;
+  overflow: none;
+  background-repeat: no-repeat;
+  padding: auto; }
+
+h1.text-center h2.text-center {
+  left: 10%; }
+
+h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  font-size: 1.5em; }
+
+.container-main {
+  margin-top: 80px;
+  padding: 0 30px 30px 30px; }
+
+.row {
+  margin-bottom: 20px; }
+
+.profile-img {
+  width: 75%;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 25px; }
+
+.about-img {
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 25px; }
+
+.contact-list {
+  padding: 0;
+  margin: 0; }
+
+.contact-list li {
+  list-style: none;
+  font-weight: bold;
+  line-height: 3.7em; }
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+div.alert {
+  width: 70%; }
+
+.alert-info {
+  background-color: rgba(169, 171, 198, 0.7);
+  color: #2f3275; }
+
+.alert-success {
+  background-color: rgba(150, 124, 182, 0.7);
+  color: #471485; }
+
+.well {
+    min-height: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #333;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    max-width: 444px;
+}
+
+/*# sourceMappingURL=base.css.map */

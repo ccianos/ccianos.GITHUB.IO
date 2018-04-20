@@ -1,5 +1,5 @@
 # Hello World!
 
-My name is ccianos.
+My name is ccianos. This is the code repository for my homepage, baycoder.com.
 
-*Under Construction*
+*Enjoy...*

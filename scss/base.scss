@@ -40,6 +40,18 @@ body {
     padding: auto;
 }
 
+@media screen and (min-device-width: 1920px) {
+  .jumbotron {
+      background: #363636 url("https://raw.githubusercontent.com/ccianos/img/master/BridgeAtSunset_Jean%20Beaufort_o.jpg");
+      color: #fff;
+      height: 900px;  
+      background-size: 100%;
+      overflow: none;
+      background-repeat: no-repeat;
+      padding: auto;
+  }
+}
+
 h1.text-center h2.text-center {
    left: 10%;
 }

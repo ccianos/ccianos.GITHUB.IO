@@ -40,6 +40,32 @@ body {
     padding: auto;
 }
 
+@media screen and (max-device-width: 540px) and (min-device-width: 280px) {
+  .jumbotron {
+      background: #363636 url("https://raw.githubusercontent.com/ccianos/img/master/BridgeAtSunset_Jean%20Beaufort_o.jpg");
+      color: #fff;
+      height: 598px;
+      background-size: 100%;
+      overflow: none;
+      background-repeat: no-repeat;
+      padding: auto;
+      margin-bottom: -320px;
+  }
+}
+
+@media screen and (max-device-width: 900px) and (min-device-width: 541px) {
+  .jumbotron {
+      background: #363636 url("https://raw.githubusercontent.com/ccianos/img/master/BridgeAtSunset_Jean%20Beaufort_o.jpg");
+      color: #fff;
+      height: 598px;
+      background-size: 100%;
+      overflow: none;
+      background-repeat: no-repeat;
+      padding: auto;
+      margin-bottom: -100px;
+  }
+}
+
 @media screen and (min-device-width: 1920px) {
   .jumbotron {
       background: #363636 url("https://raw.githubusercontent.com/ccianos/img/master/BridgeAtSunset_Jean%20Beaufort_o.jpg");
@@ -63,12 +89,10 @@ h2 {
     font-size: 1.5em;
 }
 
-
 .container-main {
     margin-top: 80px;
     padding: 0 30px 30px 30px;
 }
-
 
 .row {
     margin-bottom: 20px;
@@ -80,6 +104,7 @@ h2 {
     margin-top: 20px;
     border-radius: 25px;
 }
+
 
 .about-img {
     width: 100%;
@@ -98,7 +123,6 @@ h2 {
     font-weight: bold;
     line-height: 3.7em;
 }
-
 
 footer {
     background: #222;

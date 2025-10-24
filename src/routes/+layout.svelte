@@ -12,9 +12,22 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-<div>
+<div class="page-container">
     <Navbar />
-    {@render children?.()}
+        <main>
+            {@render children?.()}
+        </main>
     <Footer />
 </div>
 
+<style>
+    .page-container {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    main {
+        flex-grow: 1;
+    }
+</style>

@@ -1,6 +1,6 @@
 <header aria-label="Main Navigation" class="aurora-header">
     <a class="buttery logo-font" href="/">HUMACADO</a>
-    <ul class="nav-font">
+    <ul class="buttery nav-font">
         <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
         <li><a href="/portfolio">Portfolio</a></li>
@@ -40,8 +40,8 @@
         text-decoration: underline;
         box-shadow: 0 0 0px 0px rgba(52, 152, 219, 0.8);
         border-radius: 0%;
-        transition: box-shadow 1.0s ease-in-out,
-            border-radius 1.0s ease-out;
+        transition: box-shadow 0.5s ease-in-out,
+            border-radius 0.5s ease-out;
     }
 
     a:hover,

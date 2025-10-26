@@ -1,6 +1,6 @@
 <header aria-label="Main Navigation" class="aurora-header">
-    <ul class="header-font">
-        <li><a class="buttery" href="/">HUMACADO</a></li>
+    <a class="buttery logo-font" href="/">HUMACADO</a>
+    <ul class="nav-font">
         <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
         <li><a href="/portfolio">Portfolio</a></li>
@@ -34,41 +34,43 @@
     }
 
     a {
-        justify-content: center;
-        align-items: center;
         text-decoration: none;
         padding: 1em;
         margin: 0;
         text-decoration: underline;
+        box-shadow: 0 0 0px 0px rgba(52, 152, 219, 0.8);
         border-radius: 0%;
-        transition: box-shadow 1.0s ease-in-out;
-        transition: border-radius 1.0s ease;
+        transition: box-shadow 1.0s ease-in-out,
+            border-radius 1.0s ease-out;
     }
 
     a:hover,
+    a:focus,
     a:active {
         outline: dotted 5px var(--color-secondary);
         box-shadow: 0 0 15px 5px rgba(52, 152, 219, 0.8);
         border-radius: 30%;
     }
 
-    .header-font {
+    .nav-font {
         font-family: "BubblezGraffiti";
         font-size: 20px;
-        margin: 0;
-        padding: 20px;
+    }
+
+    .logo-font {
+        font-family: "BubblezGraffiti";
+        font-size: 40px;
+        justify-self: start;
     }
 
     header {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
         align-items: center;
-        justify-content: center;
         border-bottom: 1px solid var(--color-borders);
         width: 100%;
         margin-bottom: 1rem;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding: 20px 1.5em;
     }
 
     .aurora-header {
@@ -80,7 +82,6 @@
     }
 
     .buttery {
-        font-family: "BubblezGraffiti";
         background: linear-gradient(
         to left,
             var(--color-buttery-1),
@@ -96,6 +97,5 @@
         text-shadow: 4px 6px 8px var(--color-borders);
         margin: 0;
         padding: 0;
-        font-size: 40px;
     }
 </style>

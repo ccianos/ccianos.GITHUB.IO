@@ -42,12 +42,11 @@
 
     .title-container {
         display: flex;
+        flex-grow: 1;
         position: relative;
         left: auto;
         right: auto;
-        padding: 5em 1em;
-        min-height: 50vh;
-        max-height: 100vh;
+        padding: 1em;
         align-items: center;
         justify-content: center;
         pointer-events: none;

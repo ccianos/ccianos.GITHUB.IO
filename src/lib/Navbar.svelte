@@ -37,7 +37,6 @@
         text-decoration: none;
         padding: 1em;
         margin: 0;
-        text-decoration: underline;
         box-shadow: 0 0 0px 0px rgba(52, 152, 219, 0.8);
         border-radius: 0%;
         transition: box-shadow 0.5s ease-in-out,

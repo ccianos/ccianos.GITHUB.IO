@@ -1,0 +1,48 @@
+---
+
+---
+
+<script>
+    import Projects from '$lib/Projects.svelte'
+</script>
+
+# Welcome, I'm Charles Cianos (Charlie) 👋🏾
+## (Multidisciplinary Creative **∧** Technical Craftsperson) **⇔** Always Learning 📚
+
+I enjoy many things. The pursuit of art, science, and craft as a humanist and technologist is one of them.
+
+- Author and publish essays on technology and society, integrating anthropological insights with current
+issues
+- Contribute to the open-source community by publishing and maintaining projects on GitHub
+- Pursue advanced training toward the (ISC)² CISSP certification, strengthening knowledge in information
+security and compliance
+- Master advanced Python, Go, and Machine Learning
+- Apply my learning across various fields to Speculative Science
+
+My writing focuses on political philosophy, humanism, and anthropology.
+
+I have a deep interest in general Systems and Software Engineering, with a strong passion for Information Security and DevSecOps.
+
+My most loved web framework is <a href="https://svelte.dev" aria-label="Svelte UI framework" target="_blank">Svelte</a>. My faviorte computer manufacturer is <a href="https://system76.com" aria-label="System76, Inc., an American computer manufacturer based in Denver, Colorado" target="_blank">System76</a>.
+
+**Feel free to connect with me on <a href="https://www.linkedin.com/in/charles-cianos-50626735" aria-label="Social Contact: LinkedIn" target="_blank">LinkedIn</a>, <a href="https://github.com/ccianos" aria-label="Social Contact: GitHub" target="_blank">GitHub</a>, <a href="https://medium.com/@csianos" aria-label="Social Contact: Medium" target="_blank">Medium</a>, and <a href="https://www.facebook.com/Chuck.Cianos" aria-label="Social Contact: Facebook" target="_blank">Facebook</a>.**
+
+<Projects />
+
+[![Github](https://img.shields.io/github/followers/ccianos?label=Follow&style=social)](https://github.com/ccianos)
+
+![ccianos's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ccianos&theme=blue-green&show_icons=true&hide_border=false&layout=compact&langs_count=10)
+
+![ccianos's Stats](https://github-readme-stats.vercel.app/api?username=ccianos&theme=blue-green&show_icons=true&hide_border=false&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+
+![ccianos's Streak](https://github-readme-streak-stats.herokuapp.com/?user=ccianos&theme=blue-green&hide_border=false)
+
+<style>
+    :root {
+        --color-links: #00bec3; /* Turquoise Surf (Coffee Shop Palette Color Palette https://www.color-hex.com/color-palette/13328) */
+    }
+
+    a {
+        color: var(--color-links);
+    }
+</style>

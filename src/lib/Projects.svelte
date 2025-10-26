@@ -9,14 +9,14 @@
     <tbody>
         <tr>
             <td>
-                <a href="https://www.python.org" target="_blank">
+                <a href="https://www.python.org" target="_blank" aria-label="Python programming language site">
                     <img
                         src="https://img.shields.io/static/v1?label=&message=Python&color=3C78A9&logo=python&logoColor=FFFFFF)"
                         alt="Visit the Python language site"/>
                 </a>
             </td>
             <td>
-                <a href="https://github.com/ccianos/PRISM" target="_blank">
+                <a href="https://github.com/ccianos/PRISM" target="_blank" aria-label="PRISM repository">
                     <img
                         src="https://img.shields.io/static/v1?label=&message=PRISM&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605"
                         alt="Visit the PRISM repository"/>
@@ -25,24 +25,24 @@
         </tr>
         <tr>
             <td>
-                <a href="https://golang.org" target="_blank">
+                <a href="https://golang.org" target="_blank" aria-label="Go programming language site">
                     <img
                         src="https://img.shields.io/static/v1?label=&message=Golang&color=7FD6EA&logo=go&logoColor=FFFFFF)"
                         alt="Visit the Go language site"/>
                 </a>
             </td>
             <td>
-                <a href="https://github.com/ccianos/quinarymcgraphics" target="_blank">
+                <a href="https://github.com/ccianos/quinarymcgraphics" target="_blank" aria-label="quinarymcgraphics repository">
                     <img
                         src="https://img.shields.io/static/v1?label=&message=quinarymcgraphics&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605"
                         alt="Visit the quinarymcgraphics repository"/>
                 </a>
-                <a href="https://github.com/ccianos/byterep" target="_blank">
+                <a href="https://github.com/ccianos/byterep" target="_blank" aria-label="byterep repository">
                     <img
                         src="https://img.shields.io/static/v1?label=&message=byterep&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605"
                         alt="Visit the byterep repository"/>
                 </a>
-                <a href="https://github.com/ccianos/snake" target="_blank">
+                <a href="https://github.com/ccianos/snake" target="_blank" aria-label="snake repository">
                     <img
                         src="https://img.shields.io/static/v1?label=&message=snake&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605"
                         alt="Visit the snake repository"/>

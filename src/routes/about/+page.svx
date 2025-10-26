@@ -6,6 +6,8 @@
     import Projects from '$lib/Projects.svelte'
 </script>
 
+<article>
+
 # Welcome, I'm Charles Cianos (Charlie) 👋🏾
 ## (Multidisciplinary Creative **∧** Technical Craftsperson) **⇔** Always Learning 📚
 
@@ -37,6 +39,8 @@ My most loved web framework is <a href="https://svelte.dev" aria-label="Svelte U
 
 ![ccianos's Streak](https://github-readme-streak-stats.herokuapp.com/?user=ccianos&theme=blue-green&hide_border=false)
 
+</article>
+
 <style>
     :root {
         --color-links: #00bec3; /* Turquoise Surf (Coffee Shop Palette Color Palette https://www.color-hex.com/color-palette/13328) */
@@ -44,5 +48,10 @@ My most loved web framework is <a href="https://svelte.dev" aria-label="Svelte U
 
     a {
         color: var(--color-links);
+    }
+
+    article {
+        margin: 0 auto;
+        font-size: 18px;
     }
 </style>

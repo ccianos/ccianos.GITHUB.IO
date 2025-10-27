@@ -17,7 +17,7 @@ Access Control (RBAC) policy across development and operations teams.
 **Tools & Frameworks:** Splunk, Puppet, GitHub, Python, Bash, SSH, OpenLDAP, ldapsearch,
 ldapmodify, LDIF, Jira, Confluence.
 
-**Role & Contributions:** 
+**Role & Contributions:**
 I served as the technical liaison between security, engineering, and infrastructure teams. My
 responsibilities included auditing existing permissions, scripting automated policy checks, and
 implementing updates across environments. I authored internal documentation and designed

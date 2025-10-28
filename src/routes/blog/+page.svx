@@ -1,0 +1,27 @@
+---
+
+---
+
+<article>
+
+# Blog 📜
+
+- <a href="/blog/the-heart-of-fascism-and-antifascism" aria-label="Blog post">The Heart of Fascism and Antifascism</a>
+
+</article>
+
+<style>
+    :root {
+        --color-links: #00bec3; /* Turquoise Surf (Coffee Shop Palette Color Palette https://www.color-hex.com/color-palette/13328) */
+    }
+
+    a {
+        color: var(--color-links);
+    }
+
+    article {
+        width: 60%;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+</style>

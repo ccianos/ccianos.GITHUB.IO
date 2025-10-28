@@ -6,7 +6,7 @@
 
 # The Heart of Fascism and Antifascism
 
-![Cover Art](/blog/the-heart-of-fascism-and-antifascism/cover_resize_heart_of_fascism_antifascism.png "Cover Art")
+<img src="/blog/the-heart-of-fascism-and-antifascism/cover_resize_heart_of_fascism_antifascism.png" alt="Cover Art for The Heart of Fascism and Antifascism">
 
 > **Transhumanism — Mythic and Behavioral, Not Strictly Technological — Is the Heart of Fascism.**
 

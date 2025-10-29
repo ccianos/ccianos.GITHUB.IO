@@ -4,11 +4,11 @@
         <text text-anchor="middle" x="50%" y="20%" font-size="15" class="blinking-chars-group">
             <!-- First text: "Human Can Do" -->
              <tspan id="text1" class="char" dy="0">Human Can Do</tspan>
-            <!-- Second text: "Within The Humanity That Do" -->
+            <!-- Second text: "Within Humanity That Do" -->
              <tspan id="text2" class="char" dy="15">Within Humanity That Do</tspan>
             <!-- Third text: "Humanity Can Do" -->
             <tspan id="text3" class="char" dy="-15">Humanity Can Do</tspan>
-            <!-- Fourth text: "Within The Human That Do" -->
+            <!-- Fourth text: "Within Human That Do" -->
             <tspan id="text4" class="char" dy="15">Within Human That Do</tspan>
         </text>
     </svg>

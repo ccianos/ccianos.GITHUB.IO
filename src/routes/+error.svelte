@@ -1,7 +1,23 @@
 <script>
     import { page } from '$app/state';
-</script>
+    import { onMount } from 'svelte';
 
+    let unicodeArt = 'Loading...';
+
+    // Fetch the txt file when the component loads
+    onMount (async () => {
+        try {
+            const res = await fetch('/error/rofp.txt');
+            if (res.ok) {
+                unicodeArt = await res.text();
+            } else {
+                unicodeArt = 'Error loading art';
+            } 
+        } catch (err) {
+                unicodeArt = 'Error loading art';
+        }
+    });
+</script>
 
 <div class="error">
     <h1>{page.status}</h1>
@@ -10,7 +26,7 @@
 </div>
 
 <div class="byterep-container blinking">
-    <embed src="/error/rofp.txt" type="text/plain">
+    <pre>{unicodeArt}</pre>
 </div>
 
 <style>
@@ -25,6 +41,7 @@
     .error {
         font-size: 18px;
         margin-top: 10px;
+        text-align: center;
     }
 
     p {
@@ -41,12 +58,14 @@
         align-items: center;
         justify-content: center;
         pointer-events: none;
+        overflow: hidden;
     }
 
-    embed {
-        width: 600px;
-        height: 840px;
-        overflow: hidden;
+    pre {
+        font-family: "Courier New", Courier, monospace;
+        text-align: left;
+        line-height:  0.8;
+        font-size: clamp(1px, 1vw, 8px);
     }
 
     .blinking {

@@ -4,9 +4,10 @@ import adapter from '@sveltejs/adapter-static';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: { adapter: adapter({
-        page: 'docs',
-        assets: 'docs'
-    }) },
+            pages: 'docs',
+            assets: 'docs'
+        }) 
+    },
 	preprocess: [mdsvex()],
 	extensions: ['.svelte', '.svx']
 };

@@ -5,11 +5,15 @@ import adapter from '@sveltejs/adapter-static';
 const config = {
 	kit: { adapter: adapter({
             pages: 'docs',
-            assets: 'docs'
-        }) 
+            assets: 'docs',
+            fallback: '404.html'
+        }),
     },
 	preprocess: [mdsvex()],
-	extensions: ['.svelte', '.svx']
+	extensions: ['.svelte', '.svx'],
+    prerender: {
+        default: true
+    }
 };
 
 export default config;

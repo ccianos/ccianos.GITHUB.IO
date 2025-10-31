@@ -25,7 +25,6 @@
         .footer-font {
             font-size: 0.8em;
             padding: 0 1em;
-            text-align: center;
         }
     }
 
@@ -33,6 +32,7 @@
         font-family: "BubblezGraffiti";
         font-size: 1em;
         margin: 0;
+        text-align: center;
     }
 
     footer {

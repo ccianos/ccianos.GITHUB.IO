@@ -21,6 +21,14 @@
         --color-borders: #7e4000; /* Hazelnut Chocolate (Coffee Shop Palette Color Palette https://www.color-hex.com/color-palette/13328) */
     }
 
+    @media (max-width: 600px) {
+        .footer-font {
+            font-size: 0.8em;
+            padding: 0 1em;
+            text-align: center;
+        }
+    }
+
     .footer-font {
         font-family: "BubblezGraffiti";
         font-size: 1em;

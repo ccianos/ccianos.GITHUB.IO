@@ -25,6 +25,7 @@
         font-family: "BubblezGraffiti";
         font-size: 1em;
         margin: 0;
+        text-align: center;
     }
 
     footer {
@@ -45,5 +46,12 @@
             var(--color-bg-secondary),
             var(--color-bg-tertiery)
         );
+    }
+
+    @media (max-width: 600px) {
+        .footer-font {
+            font-size: 0.8em;
+            padding: 0 1em;
+        }
     }
 </style>

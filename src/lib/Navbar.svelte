@@ -97,4 +97,25 @@
         margin: 0;
         padding: 0;
     }
+
+    @media (max-width: 600px) {
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1.5em 1em;
+        }
+
+        .logo-font {
+            font-size: 28px;
+        }
+
+        .nav-font {
+            font-size: 14px;
+        }
+
+        a {
+            padding: 0.5em;
+        }
+    }
 </style>

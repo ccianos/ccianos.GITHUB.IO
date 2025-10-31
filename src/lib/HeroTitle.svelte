@@ -1,15 +1,15 @@
 <header class="title-container">
     <svg viewBox="0 0 800 300" class="buttery blinking-chars" xmlns="http://www.w3.org/2000/svg">
         <!-- Define the animations -->
-        <text text-anchor="middle" x="50%" y="20%" font-size="15" class="blinking-chars-group">
+        <text text-anchor="middle" x="50%" y="20%" class="blinking-chars-group">
             <!-- First text: "Human Can Do" -->
-             <tspan id="text1" class="char" dy="0">Human Can Do</tspan>
+             <tspan id="text1" class="char" dy="0em">Human Can Do</tspan>
             <!-- Second text: "Within Humanity That Do" -->
-             <tspan id="text2" class="char" dy="15">Within Humanity That Do</tspan>
+             <tspan id="text2" class="char" dy="1.2em">Within Humanity That Do</tspan>
             <!-- Third text: "Humanity Can Do" -->
-            <tspan id="text3" class="char" dy="-15">Humanity Can Do</tspan>
+            <tspan id="text3" class="char" dy="-1.2em">Humanity Can Do</tspan>
             <!-- Fourth text: "Within Human That Do" -->
-            <tspan id="text4" class="char" dy="15">Within Human That Do</tspan>
+            <tspan id="text4" class="char" dy="1.2em">Within Human That Do</tspan>
         </text>
     </svg>
 </header>
@@ -73,6 +73,7 @@
 
     .blinking-chars {
         font-family: "NeonSans";
+        font-size: 0.8vw;
     }
 
     .blinking-chars-group .char {
@@ -104,6 +105,12 @@
         }
         50% {
             opacity: 1;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .blinking-chars-group {
+            font-size: 4.3vw;
         }
     }
 </style>

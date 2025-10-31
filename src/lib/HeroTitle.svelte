@@ -73,6 +73,9 @@
 
     .blinking-chars {
         font-family: "NeonSans";
+    }
+
+    .blinking-chars-group {
         font-size: 0.8vw;
     }
 

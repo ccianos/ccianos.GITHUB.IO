@@ -197,8 +197,24 @@ physical fields themselves?
     }
 
     article {
-        width: 60%;
+        width: 80%;
         margin: 0 auto;
         font-size: 18px;
+    }
+
+    @media (max-width: 600px) {
+        article {
+            font-size: 14px;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 19px;
+        }
+
+        h2 {
+            font-size: 14px;
+        }
     }
 </style>

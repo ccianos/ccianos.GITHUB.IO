@@ -54,4 +54,24 @@ My most loved web framework is <a href="https://svelte.dev" aria-label="Svelte U
         margin: 0 auto;
         font-size: 18px;
     }
+
+    @media (max-width: 600px) {
+        article {
+            font-size: 14px;
+            margin: 0 15px;
+        }
+
+        h1 {
+            font-size: 19px;
+        }
+
+        h2 {
+            font-size: 14px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
 </style>

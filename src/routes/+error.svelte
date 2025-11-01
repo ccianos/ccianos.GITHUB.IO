@@ -105,4 +105,10 @@
             opacity: 1;
         }
     }
+
+    @media (max-width: 600px) {
+        .error {
+            font-size: 14px;
+        }
+    }
 </style>

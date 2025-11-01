@@ -137,8 +137,29 @@ This article was originally published in <a href="https://medium.com/@csianos/th
     }
 
     article {
-        width: 60%;
+        width: 80%;
         margin: 0 auto;
         font-size: 18px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    @media (max-width: 600px) {
+        article {
+            max-width: 100%;
+            margin: 0 15px;
+            font-size: 14px;
+        }
+
+        h1 {
+            font-size: 18px;
+        }
+
+        h2 {
+            font-size: 16px;
+        }
     }
 </style>
